@@ -1,0 +1,10 @@
+t = 0:0.001:3;
+ph = 0;
+% ph = pi / 4;
+% ph = pi / 2;
+% ph = 3 * pi/ 4;
+% ph = pi;
+x2 = cos(2 * pi * 587 * t + ph);
+plot(t,x2);
+xlim([0 0.1]);
+sound(x2);
